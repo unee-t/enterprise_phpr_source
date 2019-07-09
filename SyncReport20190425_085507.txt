@@ -1,0 +1,4 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● ut_map_external_source_units:
+		 + is_mefe_api_success
+		 + mefe_api_error_message

@@ -1,0 +1,1220 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<!--BEGIN rtlCSS-->
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		<!--END rtlCSS-->
+		<!--BEGIN styleCSSFiles-->
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		<!--END styleCSSFiles-->
+	<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style></head>
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	<!--BEGIN body-->
+		<DIV id='header' class='simple-xt-tag' style='display: inline-block;'>header</DIV>
+		<style>
+			{$containerCss}
+		</style>
+		<div class="r-topbar-page">
+			<div data-menu-width="full" 
+				data-fixed 
+				class="r-topheader" 
+				data-resize-name="topbar"
+				data-body-align="left"
+			>
+								<!--BEGIN supertop_block-->
+<nav class="navbar navbar-default
+	bs-fullwidth-navbar
+" 
+	data-location="supertop" id="form_supertop_1" data-makeup="topbar" {$form_supertop} data-pageid="1" >
+			 
+			 
+				<span data-cellId="supertop_c1" data-pageid="1" class=" r-ori-vert navbar-header" data-itemid="logo" {$item_logo}>
+				<!--BEGIN logo_block-->
+	<A data-itemtype="logo" data-itemid="logo" {$item_logo} data-pageid="1" class="navbar-brand" href="{$home_link}" data-brick="logo" data-pageid="1" {$logo_hiddenattr}>
+		<SPAN id='logo'>unee-t.enterprise</SPAN>
+	</A>
+<!--END logo_block-->
+				<button data-pageid="1" type="button" class="navbar-toggle collapsed" data-runner-toggle="collapse" data-target="[data-mobile-controlled]">	
+					<span class="sr-only">Toggle navigation</span>	
+					<span class="icon-bar"></span>					
+				</button>				
+			</span>
+				 
+			 
+				<span data-cellId="supertop_c2" data-pageid="1" class=" r-ori-vert navbar-collapse" data-itemtype="menu" data-itemid="menu" {$item_menu} data-pageid="1">
+				<ul class="nav navbar-nav">
+                <li class=""><a href="#">Manage Users</a></li>
+            
+                <li class=""><a href="#">Uneet Enterprise Users</a></li>
+            </ul>			</span>
+				 
+						</nav>
+<!--END supertop_block-->
+				</div>	
+			
+			<div data-body-align="left"  data-body-width="standard" class="r-body" data-resize-top="topbar" >
+				<div class="r-top">
+								<!--BEGIN top_block-->
+<div class="r-form" data-location="top" id="form_top_1" data-makeup="topbar" {$form_top} data-pageid="1" >		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="1"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h2 data-itemtype="edit_header" data-itemid="edit_header" {$item_edit_header} data-pageid="1" >Manage Users, Edit [{%external_id}, {%external_system}, {%external_table}]</h2>
+		</div>					</div>
+	</div>		
+<!--END top_block-->
+					</div>
+				<div class="r-content">
+										<div class="r-data-block" data-body-width="standard" >
+						
+										<!--BEGIN above-grid_block-->
+<div class="r-form" data-location="above-grid" id="form_above-grid_1" data-makeup="topbar" {$form_above-grid} data-pageid="1" >		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="1"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		<!--BEGIN firstAboveGridCell-->
+		 
+		<div data-itemtype="edit_message" data-itemid="edit_message" {$item_edit_message} data-pageid="1" class="alert {$message_class}" role="alert">
+<h5></h5>
+<div>
+<!--BEGIN back_button-->
+			<button class="btn btn-sm btn-default" {$backbutton_attrs}>Back to list</button>
+	<!--END back_button-->
+<!--BEGIN view_page_button-->
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>View</button>
+<!--END view_page_button-->
+</div>
+</div>
+			<!--END firstAboveGridCell-->	
+	</div>					</div>
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c2" data-pageid="1"	{$cell_above-grid_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		
+            <ol class="breadcrumb">
+                <li ><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Manage Users
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Users</a></li><li><a href="#">Admin Rights</a></li><li><a href="#">Uneet Enterprise Users</a></li><li><a href="#">Admin Members</a></li><li><a href="#">Add/Edit users</a></li>
+                        </ul>
+                    </a>
+                </li>
+            </ol>
+        		</div>					</div>
+	</div>		
+<!--END above-grid_block-->
+							
+						<div class="r-grid">
+										<!--BEGIN grid_block-->
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="left"
+	data-location="grid" id="form_grid_1" data-makeup="topbar" {$form_grid} data-pageid="1" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr>
+										
+
+<!--BEGIN cellblock_grid_c3-->
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="1"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+<!--BEGIN external_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_external_id}  r-vertical-field" 
+	data-fieldname="external_id" 
+	data-signal-error-for="external_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="1" data-field="external_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_external_id}">
+		<!--BEGIN external_id_label--><span typeid="label" id1="Manage Users" id2="external_id">External Id</span><!--END external_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_external_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;external_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="external_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END external_id_fieldblock-->
+											
+<!--BEGIN external_system_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_external_system}  r-vertical-field" 
+	data-fieldname="external_system" 
+	data-signal-error-for="external_system{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="1" data-field="external_system" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_external_system}">
+		<!--BEGIN external_system_label--><span typeid="label" id1="Manage Users" id2="external_system">External System</span><!--END external_system_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_external_system"><span class="glyphicon glyphicon-edit"></span>&nbsp;external_system</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="external_system">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END external_system_fieldblock-->
+											
+<!--BEGIN external_table_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_external_table}  r-vertical-field" 
+	data-fieldname="external_table" 
+	data-signal-error-for="external_table{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="1" data-field="external_table" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_external_table}">
+		<!--BEGIN external_table_label--><span typeid="label" id1="Manage Users" id2="external_table">External Table</span><!--END external_table_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_external_table"><span class="glyphicon glyphicon-edit"></span>&nbsp;external_table</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="external_table">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END external_table_fieldblock-->
+											
+<!--BEGIN syst_created_datetime_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_syst_created_datetime}  r-vertical-field" 
+	data-fieldname="syst_created_datetime" 
+	data-signal-error-for="syst_created_datetime{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="1" data-field="syst_created_datetime" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_syst_created_datetime}">
+		<!--BEGIN syst_created_datetime_label--><span typeid="label" id1="Manage Users" id2="syst_created_datetime">Syst Created Datetime</span><!--END syst_created_datetime_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_syst_created_datetime"><span class="glyphicon glyphicon-calendar"></span>&nbsp;syst_created_datetime</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="syst_created_datetime">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END syst_created_datetime_fieldblock-->
+											
+<!--BEGIN creation_system_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_creation_system_id}  r-vertical-field" 
+	data-fieldname="creation_system_id" 
+	data-signal-error-for="creation_system_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="1" data-field="creation_system_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_creation_system_id}">
+		<!--BEGIN creation_system_id_label--><span typeid="label" id1="Manage Users" id2="creation_system_id">Creation System Id</span><!--END creation_system_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_creation_system_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;creation_system_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="creation_system_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END creation_system_id_fieldblock-->
+											
+<!--BEGIN created_by_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_created_by_id}  r-vertical-field" 
+	data-fieldname="created_by_id" 
+	data-signal-error-for="created_by_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="1" data-field="created_by_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_created_by_id}">
+		<!--BEGIN created_by_id_label--><span typeid="label" id1="Manage Users" id2="created_by_id">Created By Id</span><!--END created_by_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_created_by_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;created_by_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="created_by_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END created_by_id_fieldblock-->
+											
+<!--BEGIN syst_updated_datetime_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_syst_updated_datetime}  r-vertical-field" 
+	data-fieldname="syst_updated_datetime" 
+	data-signal-error-for="syst_updated_datetime{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="1" data-field="syst_updated_datetime" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_syst_updated_datetime}">
+		<!--BEGIN syst_updated_datetime_label--><span typeid="label" id1="Manage Users" id2="syst_updated_datetime">Syst Updated Datetime</span><!--END syst_updated_datetime_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_syst_updated_datetime"><span class="glyphicon glyphicon-calendar"></span>&nbsp;syst_updated_datetime</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="syst_updated_datetime">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END syst_updated_datetime_fieldblock-->
+											
+<!--BEGIN update_system_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_update_system_id}  r-vertical-field" 
+	data-fieldname="update_system_id" 
+	data-signal-error-for="update_system_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="1" data-field="update_system_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_update_system_id}">
+		<!--BEGIN update_system_id_label--><span typeid="label" id1="Manage Users" id2="update_system_id">Update System Id</span><!--END update_system_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_update_system_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;update_system_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="update_system_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END update_system_id_fieldblock-->
+											
+<!--BEGIN updated_by_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_updated_by_id}  r-vertical-field" 
+	data-fieldname="updated_by_id" 
+	data-signal-error-for="updated_by_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="1" data-field="updated_by_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_updated_by_id}">
+		<!--BEGIN updated_by_id_label--><span typeid="label" id1="Manage Users" id2="updated_by_id">Updated By Id</span><!--END updated_by_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_updated_by_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;updated_by_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="updated_by_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END updated_by_id_fieldblock-->
+											
+<!--BEGIN person_status_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_person_status_id}  r-vertical-field" 
+	data-fieldname="person_status_id" 
+	data-signal-error-for="person_status_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="1" data-field="person_status_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_person_status_id}">
+		<!--BEGIN person_status_id_label--><span typeid="label" id1="Manage Users" id2="person_status_id">Person Status Id</span><!--END person_status_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_person_status_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;person_status_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="person_status_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END person_status_id_fieldblock-->
+											
+<!--BEGIN dupe_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_dupe_id}  r-vertical-field" 
+	data-fieldname="dupe_id" 
+	data-signal-error-for="dupe_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="1" data-field="dupe_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_dupe_id}">
+		<!--BEGIN dupe_id_label--><span typeid="label" id1="Manage Users" id2="dupe_id">Dupe Id</span><!--END dupe_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_dupe_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;dupe_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="dupe_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END dupe_id_fieldblock-->
+											
+<!--BEGIN handler_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_handler_id}  r-vertical-field" 
+	data-fieldname="handler_id" 
+	data-signal-error-for="handler_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11} data-pageid="1" data-field="handler_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_handler_id}">
+		<!--BEGIN handler_id_label--><span typeid="label" id1="Manage Users" id2="handler_id">Handler Id</span><!--END handler_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_handler_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;handler_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="handler_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END handler_id_fieldblock-->
+											
+<!--BEGIN is_unee_t_account_needed_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_is_unee_t_account_needed}  r-vertical-field" 
+	data-fieldname="is_unee_t_account_needed" 
+	data-signal-error-for="is_unee_t_account_needed{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12} data-pageid="1" data-field="is_unee_t_account_needed" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_is_unee_t_account_needed}">
+		<!--BEGIN is_unee_t_account_needed_label--><span typeid="label" id1="Manage Users" id2="is_unee_t_account_needed">Is Unee T Account Needed</span><!--END is_unee_t_account_needed_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_is_unee_t_account_needed"><span class="glyphicon glyphicon-edit"></span>&nbsp;is_unee_t_account_needed</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="is_unee_t_account_needed">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END is_unee_t_account_needed_fieldblock-->
+											
+<!--BEGIN unee_t_user_type_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_unee_t_user_type_id}  r-vertical-field" 
+	data-fieldname="unee_t_user_type_id" 
+	data-signal-error-for="unee_t_user_type_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13} data-pageid="1" data-field="unee_t_user_type_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_unee_t_user_type_id}">
+		<!--BEGIN unee_t_user_type_id_label--><span typeid="label" id1="Manage Users" id2="unee_t_user_type_id">Unee T User Type Id</span><!--END unee_t_user_type_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_unee_t_user_type_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;unee_t_user_type_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="unee_t_user_type_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END unee_t_user_type_id_fieldblock-->
+											
+<!--BEGIN country_code_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_country_code}  r-vertical-field" 
+	data-fieldname="country_code" 
+	data-signal-error-for="country_code{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14} data-pageid="1" data-field="country_code" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_country_code}">
+		<!--BEGIN country_code_label--><span typeid="label" id1="Manage Users" id2="country_code">Country Code</span><!--END country_code_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_country_code"><span class="glyphicon glyphicon-edit"></span>&nbsp;country_code</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="country_code">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END country_code_fieldblock-->
+											
+<!--BEGIN gender_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_gender}  r-vertical-field" 
+	data-fieldname="gender" 
+	data-signal-error-for="gender{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15} data-pageid="1" data-field="gender" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_gender}">
+		<!--BEGIN gender_label--><span typeid="label" id1="Manage Users" id2="gender">Gender</span><!--END gender_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_gender"><span class="glyphicon glyphicon-edit"></span>&nbsp;gender</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="gender">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END gender_fieldblock-->
+											
+<!--BEGIN salutation_id_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_salutation_id}  r-vertical-field" 
+	data-fieldname="salutation_id" 
+	data-signal-error-for="salutation_id{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16} data-pageid="1" data-field="salutation_id" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_salutation_id}">
+		<!--BEGIN salutation_id_label--><span typeid="label" id1="Manage Users" id2="salutation_id">Salutation Id</span><!--END salutation_id_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_salutation_id"><span class="glyphicon glyphicon-edit"></span>&nbsp;salutation_id</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="salutation_id">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END salutation_id_fieldblock-->
+											
+<!--BEGIN given_name_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_given_name}  r-vertical-field" 
+	data-fieldname="given_name" 
+	data-signal-error-for="given_name{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17} data-pageid="1" data-field="given_name" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_given_name}">
+		<!--BEGIN given_name_label--><span typeid="label" id1="Manage Users" id2="given_name">Given Name</span><!--END given_name_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_given_name"><span class="glyphicon glyphicon-edit"></span>&nbsp;given_name</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="given_name">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END given_name_fieldblock-->
+											
+<!--BEGIN middle_name_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_middle_name}  r-vertical-field" 
+	data-fieldname="middle_name" 
+	data-signal-error-for="middle_name{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18} data-pageid="1" data-field="middle_name" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_middle_name}">
+		<!--BEGIN middle_name_label--><span typeid="label" id1="Manage Users" id2="middle_name">Middle Name</span><!--END middle_name_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_middle_name"><span class="glyphicon glyphicon-edit"></span>&nbsp;middle_name</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="middle_name">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END middle_name_fieldblock-->
+											
+<!--BEGIN family_name_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_family_name}  r-vertical-field" 
+	data-fieldname="family_name" 
+	data-signal-error-for="family_name{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19} data-pageid="1" data-field="family_name" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_family_name}">
+		<!--BEGIN family_name_label--><span typeid="label" id1="Manage Users" id2="family_name">Family Name</span><!--END family_name_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_family_name"><span class="glyphicon glyphicon-edit"></span>&nbsp;family_name</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="family_name">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END family_name_fieldblock-->
+											
+<!--BEGIN date_of_birth_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_date_of_birth}  r-vertical-field" 
+	data-fieldname="date_of_birth" 
+	data-signal-error-for="date_of_birth{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20} data-pageid="1" data-field="date_of_birth" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_date_of_birth}">
+		<!--BEGIN date_of_birth_label--><span typeid="label" id1="Manage Users" id2="date_of_birth">Date Of Birth</span><!--END date_of_birth_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_date_of_birth"><span class="glyphicon glyphicon-calendar"></span>&nbsp;date_of_birth</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="date_of_birth">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END date_of_birth_fieldblock-->
+											
+<!--BEGIN alias_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_alias}  r-vertical-field" 
+	data-fieldname="alias" 
+	data-signal-error-for="alias{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21} data-pageid="1" data-field="alias" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_alias}">
+		<!--BEGIN alias_label--><span typeid="label" id1="Manage Users" id2="alias">Alias</span><!--END alias_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_alias"><span class="glyphicon glyphicon-edit"></span>&nbsp;alias</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="alias">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END alias_fieldblock-->
+											
+<!--BEGIN job_title_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_job_title}  r-vertical-field" 
+	data-fieldname="job_title" 
+	data-signal-error-for="job_title{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22} data-pageid="1" data-field="job_title" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_job_title}">
+		<!--BEGIN job_title_label--><span typeid="label" id1="Manage Users" id2="job_title">Job Title</span><!--END job_title_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_job_title"><span class="glyphicon glyphicon-edit"></span>&nbsp;job_title</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="job_title">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END job_title_fieldblock-->
+											
+<!--BEGIN organization_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_organization}  r-vertical-field" 
+	data-fieldname="organization" 
+	data-signal-error-for="organization{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23} data-pageid="1" data-field="organization" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_organization}">
+		<!--BEGIN organization_label--><span typeid="label" id1="Manage Users" id2="organization">Organization</span><!--END organization_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_organization"><span class="glyphicon glyphicon-edit"></span>&nbsp;organization</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="organization">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END organization_fieldblock-->
+											
+<!--BEGIN email_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_email}  r-vertical-field" 
+	data-fieldname="email" 
+	data-signal-error-for="email{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24} data-pageid="1" data-field="email" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_email}">
+		<!--BEGIN email_label--><span typeid="label" id1="Manage Users" id2="email">Email</span><!--END email_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_email"><span class="glyphicon glyphicon-edit"></span>&nbsp;email</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="email">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END email_fieldblock-->
+											
+<!--BEGIN tel_1_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tel_1}  r-vertical-field" 
+	data-fieldname="tel_1" 
+	data-signal-error-for="tel_1{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25} data-pageid="1" data-field="tel_1" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_tel_1}">
+		<!--BEGIN tel_1_label--><span typeid="label" id1="Manage Users" id2="tel_1">Tel 1</span><!--END tel_1_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_tel_1"><span class="glyphicon glyphicon-edit"></span>&nbsp;tel_1</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="tel_1">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END tel_1_fieldblock-->
+											
+<!--BEGIN tel_2_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tel_2}  r-vertical-field" 
+	data-fieldname="tel_2" 
+	data-signal-error-for="tel_2{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26} data-pageid="1" data-field="tel_2" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_tel_2}">
+		<!--BEGIN tel_2_label--><span typeid="label" id1="Manage Users" id2="tel_2">Tel 2</span><!--END tel_2_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_tel_2"><span class="glyphicon glyphicon-edit"></span>&nbsp;tel_2</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="tel_2">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END tel_2_fieldblock-->
+											
+<!--BEGIN whatsapp_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_whatsapp}  r-vertical-field" 
+	data-fieldname="whatsapp" 
+	data-signal-error-for="whatsapp{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27} data-pageid="1" data-field="whatsapp" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_whatsapp}">
+		<!--BEGIN whatsapp_label--><span typeid="label" id1="Manage Users" id2="whatsapp">Whatsapp</span><!--END whatsapp_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_whatsapp"><span class="glyphicon glyphicon-edit"></span>&nbsp;whatsapp</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="whatsapp">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END whatsapp_fieldblock-->
+											
+<!--BEGIN linkedin_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_linkedin}  r-vertical-field" 
+	data-fieldname="linkedin" 
+	data-signal-error-for="linkedin{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field28" {$item_integrated_edit_field28} data-pageid="1" data-field="linkedin" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_linkedin}">
+		<!--BEGIN linkedin_label--><span typeid="label" id1="Manage Users" id2="linkedin">Linkedin</span><!--END linkedin_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_linkedin"><span class="glyphicon glyphicon-edit"></span>&nbsp;linkedin</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="linkedin">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END linkedin_fieldblock-->
+											
+<!--BEGIN facebook_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_facebook}  r-vertical-field" 
+	data-fieldname="facebook" 
+	data-signal-error-for="facebook{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field29" {$item_integrated_edit_field29} data-pageid="1" data-field="facebook" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_facebook}">
+		<!--BEGIN facebook_label--><span typeid="label" id1="Manage Users" id2="facebook">Facebook</span><!--END facebook_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_facebook"><span class="glyphicon glyphicon-edit"></span>&nbsp;facebook</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="facebook">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END facebook_fieldblock-->
+											
+<!--BEGIN adr1_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_adr1}  r-vertical-field" 
+	data-fieldname="adr1" 
+	data-signal-error-for="adr1{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field30" {$item_integrated_edit_field30} data-pageid="1" data-field="adr1" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_adr1}">
+		<!--BEGIN adr1_label--><span typeid="label" id1="Manage Users" id2="adr1">Adr1</span><!--END adr1_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_adr1"><span class="glyphicon glyphicon-edit"></span>&nbsp;adr1</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="adr1">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END adr1_fieldblock-->
+											
+<!--BEGIN adr2_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_adr2}  r-vertical-field" 
+	data-fieldname="adr2" 
+	data-signal-error-for="adr2{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field31" {$item_integrated_edit_field31} data-pageid="1" data-field="adr2" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_adr2}">
+		<!--BEGIN adr2_label--><span typeid="label" id1="Manage Users" id2="adr2">Adr2</span><!--END adr2_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_adr2"><span class="glyphicon glyphicon-edit"></span>&nbsp;adr2</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="adr2">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END adr2_fieldblock-->
+											
+<!--BEGIN adr3_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_adr3}  r-vertical-field" 
+	data-fieldname="adr3" 
+	data-signal-error-for="adr3{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field32" {$item_integrated_edit_field32} data-pageid="1" data-field="adr3" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_adr3}">
+		<!--BEGIN adr3_label--><span typeid="label" id1="Manage Users" id2="adr3">Adr3</span><!--END adr3_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_adr3"><span class="glyphicon glyphicon-edit"></span>&nbsp;adr3</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="adr3">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END adr3_fieldblock-->
+											
+<!--BEGIN City_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_City}  r-vertical-field" 
+	data-fieldname="City" 
+	data-signal-error-for="City{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field33" {$item_integrated_edit_field33} data-pageid="1" data-field="City" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_City}">
+		<!--BEGIN City_label--><span typeid="label" id1="Manage Users" id2="City">City</span><!--END City_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_City"><span class="glyphicon glyphicon-edit"></span>&nbsp;City</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="City">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END City_fieldblock-->
+											
+<!--BEGIN zip_postcode_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_zip_postcode}  r-vertical-field" 
+	data-fieldname="zip_postcode" 
+	data-signal-error-for="zip_postcode{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field34" {$item_integrated_edit_field34} data-pageid="1" data-field="zip_postcode" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_zip_postcode}">
+		<!--BEGIN zip_postcode_label--><span typeid="label" id1="Manage Users" id2="zip_postcode">Zip Postcode</span><!--END zip_postcode_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_zip_postcode"><span class="glyphicon glyphicon-edit"></span>&nbsp;zip_postcode</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="zip_postcode">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END zip_postcode_fieldblock-->
+											
+<!--BEGIN region_or_state_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_region_or_state}  r-vertical-field" 
+	data-fieldname="region_or_state" 
+	data-signal-error-for="region_or_state{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field35" {$item_integrated_edit_field35} data-pageid="1" data-field="region_or_state" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_region_or_state}">
+		<!--BEGIN region_or_state_label--><span typeid="label" id1="Manage Users" id2="region_or_state">Region Or State</span><!--END region_or_state_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_region_or_state"><span class="glyphicon glyphicon-edit"></span>&nbsp;region_or_state</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="region_or_state">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END region_or_state_fieldblock-->
+											
+<!--BEGIN country_fieldblock-->
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_country}  r-vertical-field" 
+	data-fieldname="country" 
+	data-signal-error-for="country{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field36" {$item_integrated_edit_field36} data-pageid="1" data-field="country" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_country}">
+		<!--BEGIN country_label--><span typeid="label" id1="Manage Users" id2="country">Country</span><!--END country_label-->
+	</label>
+	<div class="r-edit-field">
+		<div class="field_black edit-control form-control" typeid="edit_country"><span class="glyphicon glyphicon-edit"></span>&nbsp;country</div>	</div>
+	<div class="r-edit-tooltip" data-helpfor="country">
+		<div class="text-muted" >
+				</div>
+	</div>
+</div>
+
+
+<!--END country_fieldblock-->
+	
+								</td>
+			<!--END cellblock_grid_c3-->
+								</tr>
+			</tbody></table>
+<!--END grid_block-->
+							</div>
+						
+										<!--BEGIN below-grid_block-->
+<div class="r-form" data-location="below-grid" id="form_below-grid_1" data-makeup="topbar" {$form_below-grid} data-pageid="1" >		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="1"	{$cell_below-grid_c1}
+	class="			col-md-6
+	
+">
+		 
+		<!--BEGIN save_edit-->
+<span data-itemtype="edit_save" data-itemid="edit_save" {$item_edit_save} data-pageid="1" data-button-item>
+	<a type="button" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Save			</a>
+</span>
+<!--END save_edit-->
+	 
+		<!--BEGIN back_button-->
+<span data-itemtype="edit_back_list" data-itemid="edit_back_list" {$item_edit_back_list} data-pageid="1" data-button-item>
+	<a type="button" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Back to list			</a>
+</span>
+<!--END back_button-->
+	 
+		<!--BEGIN close_button-->
+<span data-itemtype="edit_close" data-itemid="edit_close" {$item_edit_close} data-pageid="1" data-button-item>
+	<a type="button" class="btn btn-default   
+	" {$closebutton_attrs} >
+							Cancel			</a>
+</span>
+<!--END close_button-->
+		</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="1"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	
+">
+		 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="1" data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+									<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+								<li data-itemtype="edit_reset" data-itemid="edit_reset" {$item_edit_reset} data-pageid="1" >
+				<a  {$resetbutton_attrs} >
+				
+		Reset		
+		</a>
+	</li>
+							<!--BEGIN view_page_button-->
+	<li data-itemtype="edit_view" data-itemid="edit_view" {$item_edit_view} data-pageid="1" >
+				<a  {$view_page_button_attrs} >
+				
+		View		
+		</a>
+	</li>
+<!--END view_page_button-->
+					</ul>
+	</span>
+</span>
+		</div>					</div>
+	</div>		
+<!--END below-grid_block-->
+							
+					</div>
+				</div>
+			</div>
+		</div>
+		<DIV id='footer' class='simple-xt-tag' style='display: inline-block;'>footer</DIV>
+	<!--END body-->
+	</body>
+</html>

@@ -1,0 +1,6 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● ut_user_types:
+		 + is_all_units_in_area
+		 + is_all_units_in_country
+		 + is_all_units_in_level_1
+		 + is_all_units_in_level_2

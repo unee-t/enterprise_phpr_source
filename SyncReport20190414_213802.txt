@@ -1,0 +1,4 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● ut_user_types:
+		 - is_invited_all_cases
+		 + is_default_invited
