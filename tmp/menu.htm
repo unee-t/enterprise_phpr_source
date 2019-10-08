@@ -61,11 +61,11 @@
 [data-page=".global_menu"][data-itemid="welcome_item8"] > .bs-welcome-header {
 				background-color: #3e2723;
 			}
-[data-page=".global_menu"][data-itemid="welcome_item16"] > .bs-welcome-header {
-				background-color: #4169E1;
-			}
 [data-page=".global_menu"][data-itemid="welcome_item17"] > .bs-welcome-header {
 				background-color: #6B8E23;
+			}
+[data-page=".global_menu"][data-itemid="welcome_item16"] > .bs-welcome-header {
+				background-color: #6DA5C8;
 			}
 </style><link rel=stylesheet href="file:///D:/Users/franck.boullier/Documents/data/git/enterprise_phpr_source/tmp/styleCache/editor.css" type="text/css" temporary="">
 <link rel=stylesheet href="file:///D:/Users/franck.boullier/Documents/data/git/enterprise_phpr_source/tmp/styleCache/bootstrap/default/normal/style.css" type="text/css" temporary="">
@@ -124,8 +124,8 @@
 <LI class><a href="#"><SPAN class="menu-icon glyphicon glyphicon-user"></span>Import Users</a></li>
 </ul>
 </li>
-<LI class><a href="#">SuperAdmin - manage UNTE admins</a></li>
-<LI class><a href="#">Super Admin - Manage Organization</a></li>
+<LI class><a href="#"><SPAN class="menu-icon glyphicon glyphicon-wrench"></span>Manage Organizations</a></li>
+<LI class><a href="#">Manage User Types</a></li>
 </ul>	</span>
 <SPAN class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="1" data-itemid="loginform_login" data-topcell-item-type="loginform_login">
 <!--BEGIN guestloginbutton-->
@@ -318,7 +318,8 @@
 </div>
 <DIV class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item8" data-pageid="1" data-page=".global_menu">
 <DIV class="bs-welcome-header">
-<a id="itemlink" href="all_properties_by_countries_list.php">	All Properties by Countries	</a>
+<a id="itemlink" href="all_properties_by_countries_list.php">
+<SPAN class="glyphicon glyphicon-th-list"></span>All Properties by Countries	</a>
 </div>
 <DIV class="bs-welcome-content" data-comment-len="37">	Count the active properties in Unee-T	</div>
 </div>
@@ -330,22 +331,24 @@
 <DIV class="clearfix col-lg-12 col-md-12 col-sm-12 welcome-group" data-itemtype="welcome_group" data-itemid="welcome_group5" data-pageid="1">
 <h2>	Super Admin	</h2>
 </div>
+<DIV class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item17" data-pageid="1" data-page=".global_menu">
+<DIV class="bs-welcome-header">
+<a id="itemlink" href="super_admin___manage_organization_list.php">
+<SPAN class="glyphicon glyphicon-wrench"></span>Manage Organization	</a>
+</div>
+<DIV class="bs-welcome-content" data-comment-len="29">	Create and edit Organizations	</div>
+</div>
 <DIV class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item16" data-pageid="1" data-page=".global_menu">
 <DIV class="bs-welcome-header">
-<a id="itemlink" href="superadmin___manage_unte_admins_list.php">	Manage UNTE admins	</a>
+<a id="itemlink" href="super_admin___manage_user_types_list.php">	Manage User Types	</a>
 </div>
-<DIV class="bs-welcome-content" data-comment-len="26">	Create UNTE Administrators	</div>
+<DIV class="bs-welcome-content" data-comment-len="24">	Manage Unee-T User Types	</div>
 </div>
 <DIV class="clearfix"></div>
 </td>
 </tr>
 <tr>
 <TD class="r-ori-vert" data-cellId="grid_c5" data-pageid="1">
-<DIV class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item17" data-pageid="1" data-page=".global_menu">
-<DIV class="bs-welcome-header">
-<a id="itemlink" href="super_admin___manage_organization_list.php">	Super Admin - Manage Organization	</a>
-</div>
-</div>
 </td>
 </tr>
 </tbody>
