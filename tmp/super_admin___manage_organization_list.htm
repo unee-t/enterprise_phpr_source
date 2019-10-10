@@ -22,6 +22,9 @@
 [data-cellid="grid_footcell_field2"][data-page="super_admin___manage_organization_list"][data-cellid="grid_footcell_field2"][data-page="super_admin___manage_organization_list"][data-cellid="grid_footcell_field2"][data-page="super_admin___manage_organization_list"] {
 			white-space: nowrap;
 		}
+[data-cellid="grid_footcell_field3"][data-page="super_admin___manage_organization_list"][data-cellid="grid_footcell_field3"][data-page="super_admin___manage_organization_list"][data-cellid="grid_footcell_field3"][data-page="super_admin___manage_organization_list"] {
+			white-space: nowrap;
+		}
 [data-cellid="grid_headcell_icons"][data-page="super_admin___manage_organization_list"][data-cellid="grid_headcell_icons"][data-page="super_admin___manage_organization_list"][data-cellid="grid_headcell_icons"][data-page="super_admin___manage_organization_list"] {
 			width: 30px;
 		}
@@ -89,7 +92,6 @@
 </ul>
 </li>
 <LI class="active"><a href="#"><SPAN class="menu-icon glyphicon glyphicon-wrench"></span>Manage Organizations</a></li>
-<LI class><a href="#">Super Admin - Manage MEFE Master User</a></li>
 </ul>	</span>
 <SPAN class="navbar-form r-align-right navbar-collapse" data-cellId="supertop_c2" data-pageid="1" data-itemid="simple_search" data-topcell-item-type="simple_search">
 <SPAN data-itemtype="simple_search" data-itemid="simple_search" data-pageid="1" class="form-group">
@@ -121,6 +123,16 @@
 <li data-itemtype="advsearch_link" data-itemid="advsearch_link"  data-pageid="1" data-small >
 <a   href="super_admin___manage_organization_search.php"   title="" >	Advanced search	</a>
 </li>
+<!--BEGIN searchPanelTopButtons-->
+<li data-itemtype="show_search_panel" data-itemid="show_search_panel"  data-pageid="1" data-small >
+<a  id="showOptPanel"  title="" >	Show search panel	</a>
+</li>
+<!--END searchPanelTopButtons-->
+<!--BEGIN searchPanelTopButtons-->
+<li data-itemtype="hide_search_panel" data-itemid="hide_search_panel"  data-pageid="1" data-small >
+<a  id="hideOptPanel"  title="" >	Hide search panel	</a>
+</li>
+<!--END searchPanelTopButtons-->
 </ul>
 </span>
 </span>
@@ -172,7 +184,7 @@
 <A href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Super Admin - Manage Organization
 <SPAN class="caret"></span>
 <UL class="dropdown-menu">
-<li><a href="#">Manage Unee-T Users</a></li><li><a href="#">Admin Rights</a></li><li><a href="#">Uneet Enterprise Users</a></li><li><a href="#">Admin Members</a></li><li><a href="#">Add/Edit users</a></li><li><a href="#">Manage Users - Unee-T Enterprise UI</a></li><li><a href="#">Uneet Enterprise Organizations</a></li><li><a href="#">Ut User Types</a></li><li><a href="#">Person Statuses</a></li><li><a href="#">Person Salutations</a></li><li><a href="#">Property Groups Countries</a></li><li><a href="#">Manage Unit Names</a></li><li><a href="#">Ut Unit Types</a></li><li><a href="#">Ut Property Types</a></li><li><a href="#">Manage User Types</a></li><li><a href="#">Ut User Role Types</a></li><li><a href="#">Manage User Default Visibility</a></li><li><a href="#">Manage User Default Notifications</a></li><li><a href="#">Person Genders</a></li><li><a href="#">Manage Areas</a></li><li><a href="#">Manage Buildings</a></li><li><a href="#">Property Groups Areas</a></li><li><a href="#">Ut External Sot For Unee T Objects</a></li><li><a href="#">Manage Units</a></li><li><a href="#">External Property Groups Areas</a></li><li><a href="#">External Property Level 1 Buildings</a></li><li><a href="#">Manage Rooms</a></li><li><a href="#">Assign Areas to User</a></li><li><a href="#">Search Users</a></li><li><a href="#">Assign Buildings to User</a></li><li><a href="#">Property Level 1 Buildings</a></li><li><a href="#">Assign Units to User</a></li><li><a href="#">Property Level 2 Units</a></li><li><a href="#">Assign Rooms to User</a></li><li><a href="#">Property Level 3 Rooms</a></li><li><a href="#">Search Rooms</a></li><li><a href="#">Search Units</a></li><li><a href="#">External Property Level 2 Units</a></li><li><a href="#">Search All Units</a></li><li><a href="#">Ut Map External Source Units</a></li><li><a href="#">Search Buildings</a></li><li><a href="#">Export and Import Buildings</a></li><li><a href="#">Export and Import Areas</a></li><li><a href="#">Export and Import Units</a></li><li><a href="#">List of Countries</a></li><li><a href="#">Export and Import Rooms</a></li><li><a href="#">Export and Import User Types</a></li><li><a href="#">Export and Import Users</a></li><li><a href="#">Assign Rooms</a></li><li><a href="#">Ut Map External Source Users</a></li><li><a href="#">Unee-T Enterprise Account</a></li><li><a href="#">All Properties by Countries</a></li><li><a href="#">SuperAdmin - manage UNTE admins</a></li><li><a href="#">Super Admin - Manage Organization</a></li><li><a href="#">Super Admin - Manage API Keys</a></li><li><a href="#">Super Admin - Manage MEFE Master User</a></li>
+<li><a href="#">Manage Unee-T Users</a></li><li><a href="#">Admin Rights</a></li><li><a href="#">Uneet Enterprise Users</a></li><li><a href="#">Admin Members</a></li><li><a href="#">Add/Edit users</a></li><li><a href="#">Manage Users - Unee-T Enterprise UI</a></li><li><a href="#">Uneet Enterprise Organizations</a></li><li><a href="#">Ut User Types</a></li><li><a href="#">Person Statuses</a></li><li><a href="#">Person Salutations</a></li><li><a href="#">Property Groups Countries</a></li><li><a href="#">Manage Unit Names</a></li><li><a href="#">Ut Unit Types</a></li><li><a href="#">Ut Property Types</a></li><li><a href="#">Manage User Types</a></li><li><a href="#">Ut User Role Types</a></li><li><a href="#">Manage User Default Visibility</a></li><li><a href="#">Manage User Default Notifications</a></li><li><a href="#">Person Genders</a></li><li><a href="#">Manage Areas</a></li><li><a href="#">Manage Buildings</a></li><li><a href="#">Property Groups Areas</a></li><li><a href="#">Ut External Sot For Unee T Objects</a></li><li><a href="#">Manage Units</a></li><li><a href="#">External Property Groups Areas</a></li><li><a href="#">External Property Level 1 Buildings</a></li><li><a href="#">Manage Rooms</a></li><li><a href="#">Assign Areas to User</a></li><li><a href="#">Search Users</a></li><li><a href="#">Assign Buildings to User</a></li><li><a href="#">Property Level 1 Buildings</a></li><li><a href="#">Assign Units to User</a></li><li><a href="#">Property Level 2 Units</a></li><li><a href="#">Assign Rooms to User</a></li><li><a href="#">Property Level 3 Rooms</a></li><li><a href="#">Search Rooms</a></li><li><a href="#">Search Units</a></li><li><a href="#">External Property Level 2 Units</a></li><li><a href="#">Search All Units</a></li><li><a href="#">Ut Map External Source Units</a></li><li><a href="#">Search Buildings</a></li><li><a href="#">Export and Import Buildings</a></li><li><a href="#">Export and Import Areas</a></li><li><a href="#">Export and Import Units</a></li><li><a href="#">List of Countries</a></li><li><a href="#">Export and Import Rooms</a></li><li><a href="#">Export and Import User Types</a></li><li><a href="#">Export and Import Users</a></li><li><a href="#">Assign Rooms</a></li><li><a href="#">Ut Map External Source Users</a></li><li><a href="#">Unee-T Enterprise Account</a></li><li><a href="#">All Properties by Countries</a></li><li><a href="#">SuperAdmin - manage UNTE admins</a></li><li><a href="#">Super Admin - Manage Organization</a></li><li><a href="#">Super Admin - Manage API Keys</a></li><li><a href="#">Super Admin - Manage MEFE Master User</a></li><li><a href="#">Super Admin - Default sot for Unee-T objects</a></li>
 </ul>
 </a>
 </li>
@@ -247,6 +259,12 @@
 <input type="checkbox" value="super_admin___manage_mefe_master_user1" id="printDetailssuper_admin___manage_mefe_master_user1" checked>	Super Admin - Manage MEFE Master User	</label>
 </div>
 <!--END print_details_super_admin___manage_mefe_master_user1-->
+<!--BEGIN print_details_super_admin___default_sot_for_unee_t_objects-->
+<div>
+<label for="printDetailssuper_admin___default_sot_for_unee_t_objects">
+<input type="checkbox" value="super_admin___default_sot_for_unee_t_objects" id="printDetailssuper_admin___default_sot_for_unee_t_objects" checked>	Super Admin - Default sot for Unee-T objects	</label>
+</div>
+<!--END print_details_super_admin___default_sot_for_unee_t_objects-->
 </div>
 </div>
 <!--END print_details-->
@@ -281,8 +299,18 @@
 <a>
 <DIV class="checkbox">
 <label>
-<input type="checkbox" id="hide_default_sot_system" checked="checked" value="1" data-field="default_sot_system">
-<span><span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_system">Default System</span></span>
+<input type="checkbox" id="hide_default_role_type_id" checked="checked" value="1" data-field="default_role_type_id">
+<span><span typeid="label" id1="Super Admin - Manage Organization" id2="default_role_type_id">Default Role Type</span></span>
+</label>
+</div>
+</a>
+</li>
+<li>
+<a>
+<DIV class="checkbox">
+<label>
+<input type="checkbox" id="hide_country_code" checked="checked" value="1" data-field="country_code">
+<span><span typeid="label" id1="Super Admin - Manage Organization" id2="country_code">Country Code</span></span>
 </label>
 </div>
 </a>
@@ -349,22 +377,6 @@
 		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="description">Description</span>";
 	}
 	
-	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_sot_system"]:before {
-		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_system">Default System</span>";
-	}
-	
-	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_sot_persons"]:before {
-		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_persons">Default Table Persons</span>";
-	}
-	
-	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_sot_areas"]:before {
-		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_areas">Default Table Areas</span>";
-	}
-	
-	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_sot_properties"]:before {
-		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_properties">Default Table Properties</span>";
-	}
-	
 	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_area"]:before {
 		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_area">Default Area</span>";
 	}
@@ -375,6 +387,14 @@
 	
 	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_unit"]:before {
 		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_unit">Default Unit</span>";
+	}
+	
+	[data-pageid="1"][data-itemtype="grid_field"][data-field="default_role_type_id"]:before {
+		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="default_role_type_id">Default Role Type</span>";
+	}
+	
+	[data-pageid="1"][data-itemtype="grid_field"][data-field="country_code"]:before {
+		content: "<span typeid="label" id1="Super Admin - Manage Organization" id2="country_code">Country Code</span>";
 	}
 	
 }
@@ -395,7 +415,7 @@
 <TH class="r-ori-vert" data-field="designation" data-cellId="grid_headcell_field" data-pageid="1" data-record-id>
 <!--BEGIN designation_fieldheadercolumn-->
 <!--BEGIN designation_fieldheader-->
-<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field"  data-pageid="1" data-record-id="" data-field="designation">
+<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field12"  data-pageid="1" data-record-id="" data-field="designation">
 <span typeid="label" id1="Super Admin - Manage Organization" id2="designation">Designation</span>	</SPAN>
 <!--END designation_fieldheader-->
 <!--END designation_fieldheadercolumn-->
@@ -405,22 +425,32 @@
 <TH class="r-ori-vert" data-field="is_obsolete" data-cellId="grid_headcell_field1" data-pageid="1" data-record-id>
 <!--BEGIN is_obsolete_fieldheadercolumn-->
 <!--BEGIN is_obsolete_fieldheader-->
-<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field12"  data-pageid="1" data-record-id="" data-field="is_obsolete">
+<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field13"  data-pageid="1" data-record-id="" data-field="is_obsolete">
 <span typeid="label" id1="Super Admin - Manage Organization" id2="is_obsolete">Obsolete</span>	</SPAN>
 <!--END is_obsolete_fieldheader-->
 <!--END is_obsolete_fieldheadercolumn-->
 </th>
 <!--END cellblock_grid_headcell_field1-->
 <!--BEGIN cellblock_grid_headcell_field2-->
-<TH class="r-ori-vert" data-field="default_sot_system" data-cellId="grid_headcell_field2" data-pageid="1" data-record-id>
-<!--BEGIN default_sot_system_fieldheadercolumn-->
-<!--BEGIN default_sot_system_fieldheader-->
-<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field14"  data-pageid="1" data-record-id="" data-field="default_sot_system">
-<span typeid="label" id1="Super Admin - Manage Organization" id2="default_sot_system">Default System</span>	</SPAN>
-<!--END default_sot_system_fieldheader-->
-<!--END default_sot_system_fieldheadercolumn-->
+<TH class="r-ori-vert" data-field="default_role_type_id" data-cellId="grid_headcell_field2" data-pageid="1" data-record-id>
+<!--BEGIN default_role_type_id_fieldheadercolumn-->
+<!--BEGIN default_role_type_id_fieldheader-->
+<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field2"  data-pageid="1" data-record-id="" data-field="default_role_type_id">
+<span typeid="label" id1="Super Admin - Manage Organization" id2="default_role_type_id">Default Role Type</span>	</SPAN>
+<!--END default_role_type_id_fieldheader-->
+<!--END default_role_type_id_fieldheadercolumn-->
 </th>
 <!--END cellblock_grid_headcell_field2-->
+<!--BEGIN cellblock_grid_headcell_field3-->
+<TH class="r-ori-vert" data-field="country_code" data-cellId="grid_headcell_field3" data-pageid="1" data-record-id>
+<!--BEGIN country_code_fieldheadercolumn-->
+<!--BEGIN country_code_fieldheader-->
+<SPAN  data-itemtype="grid_field_label" data-itemid="simple_grid_field3"  data-pageid="1" data-record-id="" data-field="country_code">
+<span typeid="label" id1="Super Admin - Manage Organization" id2="country_code">Country Code</span>	</SPAN>
+<!--END country_code_fieldheader-->
+<!--END country_code_fieldheadercolumn-->
+</th>
+<!--END cellblock_grid_headcell_field3-->
 </tr>
 <!--END grid_header-->
 </thead>
@@ -454,33 +484,15 @@
 <SPAN class="glyphicon glyphicon-th-list"></span>
 </a>
 <!--END dtables_link-->
-<!--BEGIN super_admin___manage_api_keys_dtable_link-->
-<span data-itemtype="grid_details_link" data-itemid="grid_details_link"  data-pageid="1" data-record-id="">
-<A data-short-details="super_admin___manage_api_keys" class title="Super Admin - Manage API Keys">
-<!--BEGIN super_admin___manage_api_keys_childcount-->
-<SPAN class="details-badge badge super_admin___manage_api_keys_badge">	6	</span>
-<!--END super_admin___manage_api_keys_childcount-->
-</a>
-</span>
-<!--END super_admin___manage_api_keys_dtable_link-->
 <!--BEGIN superadmin___manage_unte_admins_dtable_link-->
 <span data-itemtype="grid_details_link" data-itemid="grid_details_link1"  data-pageid="1" data-record-id="">
 <A data-short-details="superadmin___manage_unte_admins" class title="SuperAdmin - manage UNTE admins">
 <!--BEGIN superadmin___manage_unte_admins_childcount-->
-<SPAN class="details-badge badge superadmin___manage_unte_admins_badge">	5	</span>
+<SPAN class="details-badge badge superadmin___manage_unte_admins_badge">	4	</span>
 <!--END superadmin___manage_unte_admins_childcount-->
 </a>
 </span>
 <!--END superadmin___manage_unte_admins_dtable_link-->
-<!--BEGIN _dtable_link-->
-<span data-itemtype="grid_details_link" data-itemid="grid_details_link2"  data-pageid="1" data-record-id="">
-<A data-short-details class title>
-<!--BEGIN _childcount-->
-<SPAN class="details-badge badge _badge">	8	</span>
-<!--END _childcount-->
-</a>
-</span>
-<!--END _dtable_link-->
 <!--BEGIN super_admin___manage_mefe_master_user1_dtable_link-->
 <span data-itemtype="grid_details_link" data-itemid="grid_details_link3"  data-pageid="1" data-record-id="">
 <A data-short-details="super_admin___manage_mefe_master_user1" class title="Super Admin - Manage MEFE Master User">
@@ -490,6 +502,24 @@
 </a>
 </span>
 <!--END super_admin___manage_mefe_master_user1_dtable_link-->
+<!--BEGIN super_admin___manage_api_keys_dtable_link-->
+<span data-itemtype="grid_details_link" data-itemid="grid_details_link"  data-pageid="1" data-record-id="">
+<A data-short-details="super_admin___manage_api_keys" class title="Super Admin - Manage API Keys">
+<!--BEGIN super_admin___manage_api_keys_childcount-->
+<SPAN class="details-badge badge super_admin___manage_api_keys_badge">	6	</span>
+<!--END super_admin___manage_api_keys_childcount-->
+</a>
+</span>
+<!--END super_admin___manage_api_keys_dtable_link-->
+<!--BEGIN super_admin___default_sot_for_unee_t_objects_dtable_link-->
+<span data-itemtype="grid_details_link" data-itemid="grid_details_link4"  data-pageid="1" data-record-id="">
+<A data-short-details="super_admin___default_sot_for_unee_t_objects" class title="Super Admin - Default sot for Unee-T objects">
+<!--BEGIN super_admin___default_sot_for_unee_t_objects_childcount-->
+<SPAN class="details-badge badge super_admin___default_sot_for_unee_t_objects_badge">	9	</span>
+<!--END super_admin___default_sot_for_unee_t_objects_childcount-->
+</a>
+</span>
+<!--END super_admin___default_sot_for_unee_t_objects_dtable_link-->
 </td>
 <!--END cellblock_grid_cell_details-->
 <!--BEGIN cellblock_grid_cell_field-->
@@ -509,29 +539,37 @@
 <!--END is_obsolete_fieldcolumn-->	</td>
 <!--END cellblock_grid_cell_field1-->
 <!--BEGIN cellblock_grid_cell_field2-->
-<TD class="r-ori-vert" data-field="default_sot_system" data-cellId="grid_cell_field2" data-pageid="1" data-record-id>
-<!--BEGIN default_sot_system_fieldcolumn-->
-<span data-itemtype="grid_field" data-itemid="simple_grid_field13"  data-pageid="1" data-record-id="" data-field="default_sot_system" data-default-width >
-<DIV class="field_black view-control form-control" typeid="view_default_sot_system"><SPAN class="glyphicon glyphicon-text"></span>&nbsp;default_sot_system</div>
+<TD class="r-ori-vert" data-field="default_role_type_id" data-cellId="grid_cell_field2" data-pageid="1" data-record-id>
+<!--BEGIN default_role_type_id_fieldcolumn-->
+<span data-itemtype="grid_field" data-itemid="simple_grid_field"  data-pageid="1" data-record-id="" data-field="default_role_type_id" data-default-width >
+<DIV class="field_black view-control form-control" typeid="view_default_role_type_id"><SPAN class="glyphicon glyphicon-text"></span>&nbsp;default_role_type_id</div>
 </span>
-<!--END default_sot_system_fieldcolumn-->	</td>
+<!--END default_role_type_id_fieldcolumn-->	</td>
 <!--END cellblock_grid_cell_field2-->
+<!--BEGIN cellblock_grid_cell_field3-->
+<TD class="r-ori-vert" data-field="country_code" data-cellId="grid_cell_field3" data-pageid="1" data-record-id>
+<!--BEGIN country_code_fieldcolumn-->
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1"  data-pageid="1" data-record-id="" data-field="country_code" data-default-width >
+<DIV class="field_black view-control form-control" typeid="view_country_code"><SPAN class="glyphicon glyphicon-text"></span>&nbsp;country_code</div>
+</span>
+<!--END country_code_fieldcolumn-->	</td>
+<!--END cellblock_grid_cell_field3-->
 </tr>
 <TR class="
 ">
 <!--BEGIN cellblock_grid_cell_dpreview-->
 <TD class="
 " data-cellId="grid_cell_dpreview" data-pageid="1" data-record-id>
-<div data-itemtype="details_preview" data-itemid="details_preview"  data-pageid="1" data-record-id="" 
-	data-orders="super_admin___manage_api_keys,superadmin___manage_unte_admins,,super_admin___manage_mefe_master_user1"
-			data-details-super_admin___manage_api_keys			data-details-superadmin___manage_unte_admins			data-details-			data-details-super_admin___manage_mefe_master_user1	>
-<span data-details-inside data-short-table="super_admin___manage_api_keys">
-</span>
+<div data-itemtype="details_preview" data-itemid="details_preview1"  data-pageid="1" data-record-id="" 
+	data-orders="superadmin___manage_unte_admins,super_admin___manage_mefe_master_user1,super_admin___manage_api_keys,super_admin___default_sot_for_unee_t_objects"
+			data-details-superadmin___manage_unte_admins			data-details-super_admin___manage_mefe_master_user1			data-details-super_admin___manage_api_keys			data-details-super_admin___default_sot_for_unee_t_objects	>
 <span data-details-inside data-short-table="superadmin___manage_unte_admins">
 </span>
-<span data-details-inside data-short-table="">
-</span>
 <span data-details-inside data-short-table="super_admin___manage_mefe_master_user1">
+</span>
+<span data-details-inside data-short-table="super_admin___manage_api_keys">
+</span>
+<span data-details-inside data-short-table="super_admin___default_sot_for_unee_t_objects">
 </span>
 <div data-details-preview>
 </div>
@@ -560,9 +598,13 @@
 </td>
 <!--END cellblock_grid_footcell_field1-->
 <!--BEGIN cellblock_grid_footcell_field2-->
-<TD class="r-ori-vert" data-field="default_sot_system" data-cellId="grid_footcell_field2" data-pageid="1" data-record-id data-page="super_admin___manage_organization_list">
+<TD class="r-ori-vert" data-field="default_role_type_id" data-cellId="grid_footcell_field2" data-pageid="1" data-record-id data-page="super_admin___manage_organization_list">
 </td>
 <!--END cellblock_grid_footcell_field2-->
+<!--BEGIN cellblock_grid_footcell_field3-->
+<TD class="r-ori-vert" data-field="country_code" data-cellId="grid_footcell_field3" data-pageid="1" data-record-id data-page="super_admin___manage_organization_list">
+</td>
+<!--END cellblock_grid_footcell_field3-->
 </tr>
 </tfoot>
 </table>
