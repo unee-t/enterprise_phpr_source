@@ -1,0 +1,7 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● ut_map_external_source_units:
+		 + agent_default_assignee
+		 + area_id
+		 + landlord_default_assignee
+		 + mgt_cny_default_assignee
+		 + tenant_default_assignee
