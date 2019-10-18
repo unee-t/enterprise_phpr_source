@@ -1,0 +1,25 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● external_property_level_1_buildings:
+		 + area_external_id
+		 + area_external_system
+		 + area_external_table
+	● external_property_level_2_units:
+		 + l1p_external_id
+		 + l1p_external_system
+		 + l1p_external_table
+	● property_level_1_buildings:
+		 + area_external_id
+		 + area_external_system
+		 + area_external_table
+	● property_level_2_units:
+		 + l1p_external_id
+		 + l1p_external_system
+		 + l1p_external_table
+	● property_level_3_rooms:
+		 + l2p_external_id
+		 + l2p_external_system
+		 + l2p_external_table
+	● ut_map_external_source_units:
+		 + parent_external_id
+		 + parent_external_system
+		 + parent_external_table
