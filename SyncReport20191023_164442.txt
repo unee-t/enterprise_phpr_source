@@ -1,0 +1,6 @@
+Modified tables ("-" means deleted field, "+" means new field):
+	● uneet_enterprise_organizations:
+		 + default_assignee_agent
+		 + default_assignee_landlord
+		 + default_assignee_mgt_cny
+		 + default_assignee_tenant
